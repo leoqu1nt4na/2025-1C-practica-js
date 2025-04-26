@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica JS</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <h1>¿Qué puedo hacer con JavaScript?</h1>
+    
+    <h2>Eventos</h2>
+
+    <p id="demo">Este texto lo voy a cambiar con JS</p>
+    <button onclick="cambiarDemo()">Clickeame</button>
+    <br><br><br>
+    <p id="seleccionable"></p>
+    <button onclick="mostrar()">Clickeame a mi tambien</button>
+    <br><br><br>
+
+    <label for="escribime">Escribir algo</label>
+    <input type="text" id="escribime" onkeydown="cambiarEstilo()">
+    <br><br><br>
+
+    <label for="select" id="label">Cambio de color</label>
+    <select id="select" onchange="cambiarColor()">
+        <option value="rojo">Rojo</option>
+        <option value="verde">Verde</option>
+        <option value="azul">Azul</option>
+    </select>
+    <button id="btn-select">Color original</button>
+    <br><br><br>
+    <p>Lista para el asado</p>
+
+    <ul id="lista"></ul>
+    <br><br>
+    <button id="btn-lista" onclick="mostrarLista()">Mostrar lista</button>
+
+    <br><br><br>
+
+    <ul>
+        <li><a>HTML</a></li>
+        <li><a>CSS</a></li>
+        <li><a>JAVASCRIPT</a></li>
+    </ul>
+
+    <h2 id="titulo"></h2>
+    <h3 id="subtitulo"></h3>
+    <p id="parrafo"></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./scripts/script.js"></script>
+    <script type="module" src="./scripts/modificaDOM.js"></script>
+</body>
+</html>
