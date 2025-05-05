@@ -14,6 +14,7 @@ function sumar(num) {
 
 // console.log(`Sumo desde sumar, el resultado es ${sumar(numero)}`)
 
+/*---------------------------------------*/
 
 // let sumarConArrow = (num) => {
 //     return num +2
@@ -25,7 +26,7 @@ function sumar(num) {
 
 // console.log(`Sumo desde sumarConArrowRePro, el resultado es ${sumarconArrowRePro(numero)}`)
 
-//CALLBACKS
+//------------CALLBACKS-----------------//
 
 /* function saludar(param1) {
     console.log(`Hola ${param1}`)
@@ -41,7 +42,7 @@ function procesarSaludo(param2, callback) {
 
 procesarSaludo(nombre, saludar) */
 
-/************************************************************* */
+/**************************************************************/
 
 let numero1 = 2
 
